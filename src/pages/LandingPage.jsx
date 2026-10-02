@@ -189,98 +189,9 @@ function LandingPage() {
 
 </section>
 
-{/* Contact Section */}
 
-<section className="contact" id="contact">
 
-  <h2>Contact Us</h2>
 
-  <p>
-    We'd love to hear your feedback or answer your questions.
-  </p>
-
-  <div className="contact-info">
-
-    <div className="contact-card">
-      <h3>📧 Email</h3>
-      <p>support@ecotrack.com</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📞 Phone</h3>
-      <p>+91 98765 43210</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📍 Address</h3>
-      <p>Mumbai, Maharashtra, India</p>
-    </div>
-
-  </div>
-
-</section>
-
-{/* Contact Section */}
-
-<section className="contact" id="contact">
-
-  <h2>Contact Us</h2>
-
-  <p>
-    We'd love to hear your feedback or answer your questions.
-  </p>
-
-  <div className="contact-info">
-
-    <div className="contact-card">
-      <h3>📧 Email</h3>
-      <p>support@ecotrack.com</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📞 Phone</h3>
-      <p>+91 98765 43210</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📍 Address</h3>
-      <p>Mumbai, Maharashtra, India</p>
-    </div>
-
-  </div>
-
-</section>
-
-{/* Contact Section */}
-
-<section className="contact" id="contact">
-
-  <h2>Contact Us</h2>
-
-  <p>
-    We'd love to hear your feedback or answer your questions.
-  </p>
-
-  <div className="contact-info">
-
-    <div className="contact-card">
-      <h3>📧 Email</h3>
-      <p>support@ecotrack.com</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📞 Phone</h3>
-      <p>+91 98765 43210</p>
-    </div>
-
-    <div className="contact-card">
-      <h3>📍 Address</h3>
-      <p>Mumbai, Maharashtra, India</p>
-    </div>
-
-  </div>
-
-</section>
 
 {/* Footer */}
 

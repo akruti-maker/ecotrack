@@ -249,6 +249,8 @@ body{
   width:90%;
   margin:80px auto;
   text-align:center;
+  min-height:100vh;
+  padding-top:40px;
 }
 
 .features h2{
@@ -291,12 +293,18 @@ body{
   line-height:1.7;
 }
 
+
 /* ================= ABOUT ================= */
 
 .about{
   width:80%;
-  margin:100px auto;
+  margin:0 auto;
+  min-height:100vh;
+  padding-top:120px;
   text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
 }
 
 .about h2{
@@ -420,4 +428,11 @@ padding:10px 20px;
 .contact-card p{
     color:#555;
     line-height:1.6;
+}
+/* Fix navbar anchor scrolling */
+#home,
+#features,
+#about,
+#contact {
+    scroll-margin-top: 100px;
 }

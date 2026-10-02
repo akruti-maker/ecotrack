@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#eefaf1,#d8f5e2);
+}
+
+/* =========================
+   Dashboard Layout
+========================= */
+
+.dashboard-layout{
+    display:flex;
+    min-height:100vh;
+}
+
+.main-content{
+    flex:1;
+    margin-left:260px;   /* Same as sidebar width */
+    padding:30px;
+    background:linear-gradient(135deg,#eefaf1,#d8f5e2);
+}
+
+/* =========================
+   Main Dashboard
+========================= */
+
+.dashboard{
+    min-height:100vh;
+    background:linear-gradient(135deg,#eefaf1,#d8f5e2);
+}
+
+/* =========================
+   Dashboard Grid
+========================= */
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+    margin-top:30px;
+}
+
+/* =========================
+   Cards
+========================= */
+
+.input-card,
+.result-card{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(15px);
+    border-radius:25px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.input-card h2,
+.result-card h2{
+    color:#2e7d32;
+    margin-bottom:25px;
+}
+
+/* =========================
+   Input Boxes
+========================= */
+
+.input-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.input-box svg{
+    color:#2e7d32;
+    font-size:22px;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:16px;
+}
+
+/* =========================
+   Button
+========================= */
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:none;
+    border-radius:12px;
+    background:#2e7d32;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1b5e20;
+    transform:translateY(-2px);
+}
+
+/* =========================
+   Result Card
+========================= */
+
+.result-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.leaf{
+    font-size:70px;
+    color:#43a047;
+    margin-bottom:20px;
+}
+
+.result-card h1{
+    font-size:3rem;
+    color:#1b5e20;
+    margin:20px 0;
+}
+
+.result-card p{
+    color:#555;
+    line-height:1.7;
+    font-size:16px;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:900px){
+
+    .dashboard-layout{
+        flex-direction:column;
+    }
+
+    .main-content{
+        margin-left:0;
+        padding:20px;
+    }
+
+    .dashboard-grid{
+        grid-template-columns:1fr;
+    }
+}

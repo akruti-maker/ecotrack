@@ -1,0 +1,48 @@
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.topbar h2{
+    color:#1b5e20;
+    margin-bottom:5px;
+}
+
+.topbar p{
+    color:#666;
+}
+
+.topbar-right{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.search-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:white;
+    padding:12px 18px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    width:220px;
+}
+
+.icon,
+.profile{
+    font-size:24px;
+    color:#2e7d32;
+    cursor:pointer;
+}
+
+.profile{
+    font-size:40px;
+}
